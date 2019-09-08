@@ -1,10 +1,6 @@
 ---
 output: 
-  govdown::govdown_document:
-    page_title: "Coffee and coding interest survey"
-    title: "Interest survey"
-    logo_text: "CO-C&C"
-
+  govdown::govdown_document
 ---
 
 # Setting up a Cabinet Office 'Coffee & Coding' group
@@ -121,7 +117,7 @@ dt_cc2 <- dt_cc %>%
 
 
 ::: {style="float:right;position:relative;margin:10px"}
-![Coffee and Coding logo](coffee_coding_dropshadow_100px.png)
+![Coffee and Coding logo](images/coffee_coding_dropshadow_200px.png)
 :::
 
 The aim of [Coffee & Coding meetups](https://ukgovdatascience.github.io/rap-website/resource-coffee-and-coding.html) is to nurture, enable and encourage a vibrant, supportive and inclusive coding community at an organisation. Coffee & Coding provides a regular opportunity for people within an organisation who are interested in coding to share skills and knowledge, provide advice and guidance to each other and generally network and get to know each other.
@@ -134,7 +130,7 @@ So we ran a survey in May 2019 to guage interest across the Cabinet Office's ana
 
 A total of `r nrow(dt_cc2)` people took part in the survey. Unsurprisingly, nobody that took part in the survey said they had a low interest. Most people said they had a 'general interest', meaning their attendence would depend on their diary, while a small number said it would depend on specific session content or that they had a 'high interest' and would prioritise attendance.
 
-```{r echo=FALSE, fig.height=4, fig.width=8}
+```{r echo=FALSE, fig.align="center", fig.height=4, fig.width=8}
 
 gdt <- dt_cc2 %>% drop_na(interest) %>% count(interest)
 
@@ -157,7 +153,7 @@ ggplot(gdt, aes(x = interest, y = n)) +
 
 While most opted for monthly frequency, a substantial minority indicated a preference for fortnightly sessions, only one person indicated a desire for weekly Coffee and Coding sessions.
 
-```{r echo=FALSE, fig.height=4, fig.width=8}
+```{r echo=FALSE, fig.align="center", fig.height=4, fig.width=8}
 
 gdt <- dt_cc2 %>% drop_na(frequency) %>% count(frequency)
 
@@ -180,7 +176,7 @@ ggplot(gdt, aes(x = frequency, y = n)) +
 
 Friday morning was the strongest preference for when sessions should be run, but there was also a strong showing for Tuesday/Thursday afternoons. Monday mornings were the least preferred, followed by Monday afternoons - so at the very least, we know not to hold them on Mondays!
 
-```{r echo=FALSE, fig.height=4, fig.width=8}
+```{r echo=FALSE, fig.align="center", fig.height=4, fig.width=8}
 
 gdt <- dt_cc2 %>% select(starts_with("when")) %>%
   gather(key = "when", value = "value") %>%
@@ -207,7 +203,7 @@ ggplot(gdt, aes(x = day, y = time)) +
 
 The Cabinet Office is a multi-site organisation, so we also asked about location preferences. Only a few respondents had no preference or would only join via Google Hangouts, a plurality of respondents opted for the same location, but a similar number of respondents indicated a desire for regular rotation around Cabinet Office sites.
 
-```{r echo=FALSE, fig.height=4, fig.width=8}
+```{r echo=FALSE, fig.align="center", fig.height=4, fig.width=8}
 
 gdt <- dt_cc2 %>% drop_na(location) %>% count(location)
 
@@ -249,7 +245,7 @@ Respondents were asked to rate their skill level as:
 
 Around half of respondents had experence of working with big data and general coding skills, and only a small number had no awareness. Most respondents also had at least some awareness of data visualisation, R, traditional techniques, and (to some degree) Python - with a fair number having at least working level proficiency. There were only a limited number of respondents with working or practitioner levels of knowledge in either modern techniques and software development.
 
-```{r echo=FALSE, fig.height=6, fig.width=8}
+```{r echo=FALSE, fig.align="center", fig.height=6, fig.width=8}
 
 gdt <- dt_cc2 %>% select(starts_with("skill")) %>%
   gather(key = "skill") %>%

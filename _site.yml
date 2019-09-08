@@ -1,0 +1,15 @@
+output_dir: docs
+navbar:
+  - text: "Home"
+    href: index.html
+output:
+  govdown::govdown_document:
+    font: "sans-serif"
+    favicon: "custom"
+    logo: "favicon/mask-icon.svg"
+    logo_url: "https://co-analysis.github.io/co-coffee-and-coding"
+    logo_text: ""
+    page_title: "CO Coffee & Coding"
+    title: "CO Coffee & Coding"
+    google_analytics: "UA-139844526-1"
+exclude: ["node_modules", "DESCRIPTION", "inst", "install-govuk-frontend.sh", "LICENSE", "LICENSE.md", "LICENSE.html", "man", "NAMESPACE", "package.json", "R", ".Rbuildignore", "README.md", "README.html", "scss", "tags"]
