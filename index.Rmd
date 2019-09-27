@@ -45,8 +45,7 @@ sched <- jsonlite::fromJSON("schedule.JSON") %>%
   tibble::as_tibble() %>%
   mutate(date = lubridate::ymd(date),
          author = as_factor(author),
-         type = factor(type, levels = c("Project", "Method", "Surgery")),
-         abstract = str_wrap(abstract, width = 30))
+         type = factor(type, levels = c("Project", "Method", "Surgery")))
   
 ```
 
