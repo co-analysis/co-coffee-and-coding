@@ -1,0 +1,56 @@
+[{
+  "date" : "2019-09-06",
+  "title" : "Intro to Coffee & Coding",
+  "author" : "Matt Kerlogue",
+  "abstract" : "Discussing what we want to get out of Coffee & Coding the results of our <a href=\"cnc_setup_survey.html\">interest survey</a> and a demo of an <a href=\"https://coanalysis.github.io/cs-mapping/cs_lad.html\">interactive map of civil servants</a>.",
+  "type" : "Project",
+  "level" : 0
+},
+{
+  "date" : "2019-10-04",
+  "title" : "Making charts in R with ggplot & govstyle",
+  "author" : "Matt Kerlogue",
+  "abstract" : "An introduction to making charts using the R packages <a href=\"https://ggplot2.tidyverse.org/\">ggplot</a> and <a href=\"http://ukgovdatascience.github.io/govstyle/index.html\">govstyle</a>.",
+  "type" : "Method",
+  "level" : 0
+},
+{
+  "date" : "2019-10-18",
+  "title" : "tbc",
+  "author" : "",
+  "abstract" : "",
+  "type" : "",
+  "level" : null
+},
+{
+  "date" : "2019-11-01",
+  "title" : "tbc",
+  "author" : "",
+  "abstract" : "",
+  "type" : "",
+  "level" : null
+},
+{
+  "date" : "2019-11-15",
+  "title" : "tbc",
+  "author" : "",
+  "abstract" : "",
+  "type" : "",
+  "level" : null
+},
+{
+  "date" : "2019-11-29",
+  "title" : "tbc",
+  "author" : "",
+  "abstract" : "",
+  "type" : "",
+  "level" : null
+},
+{
+  "date" : "2019-12-13",
+  "title" : "tbc",
+  "author" : "",
+  "abstract" : "",
+  "type" : "",
+  "level" : null
+}]

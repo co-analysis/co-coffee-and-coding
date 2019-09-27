@@ -1,0 +1,37 @@
+---
+output:
+  govdown::govdown_document:
+    page_title: "CO C&C: [Your Session Title]"
+---
+
+## [Your Session Title]
+
+::: {.lead-para}
+An example template for a brief write-up of a C&C session. Remember to edit the page title in the YAML header above replacing `[Your Session Title]` with the title of your session
+:::
+
+Table: Session details
+
+| | |
+|--:|--|
+| Date | 04 September 2019 |
+| Abstract | An example write-up of a C&C session |
+| Type | Project showcase |
+| Level | 0: No experience necessary |
+
+#### Structure 
+
+A session write-up should be a simple R markdown document, use this as a template. Use an H2 heading (`##`) for the session title followed by a `lead-para` block that gives a short synopsis of the session and complete the session details table. Then use H4 headings (`####`) for further section headings in the markdown document. Save it in the sessions directory in the format: `YYYY-MM-DD_title.Rmd`
+
+#### What to include
+
+A session write-up should be brief, outlining what proejct/tools demonstrated and what particular features of the project/tools were focussed on. Do not include any sensitive information as these are public domain records.
+
+#### Links
+
+Please try to provide some links:
+
+* at the very least provide links to the R packages/Python libraries used
+* if the project or example is in a public repository provide a link to it
+* provide links to external examples how the package is used
+* or further reading, or people to follow on Twitter

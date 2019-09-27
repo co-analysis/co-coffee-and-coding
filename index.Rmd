@@ -9,9 +9,7 @@ output:
 This is a microsite and associated public github repo for resources associated with the Cabinet Office analytical community's Coffee & Coding sessions. 
 :::
 
-The aim of [Coffee & Coding meetups](https://ukgovdatascience.github.io/rap-website/resource-coffee-and-coding.html) is to nurture, enable and encourage a vibrant, supportive and inclusive coding community at an organisation. Coffee & Coding provides a regular opportunity for people within an organisation who are interested in coding to share skills and knowledge, provide advice and guidance to each other and generally network and get to know each other.
-
-Data science/analytical Coffee & Coding sessions are already established in at least seven departments (BEIS, DfE, DfT, DHSC, MOD, MOJ & ONS) and there’s an active [#coffee-and-coding channel](https://govdatascience.slack.com/messages/CDMCN3Y7J/convo/C0NF51LE4-1558020122.025000/) on the cross-government data science Slack team. 
+Coffee & Coding provides a regular opportunity for analysts in the Cabinet Office who are interested in coding to share skills and knowledge, provide advice and guidance to each other and generally network and get to know each other.
 
 ### When and where
 In the Cabinet Office, our Coffee & Coding sessions take place fortnightly on Friday mornings. Details of the specific meetups are provided in event invites sent out through the Cabinet Office analytical community, if you'd like to know more please get in touch via coffee-and-coding@cabinetoffice.gov.uk.
@@ -21,15 +19,15 @@ In the Cabinet Office, our Coffee & Coding sessions take place fortnightly on Fr
 The following table lists previous and (when known) upcoming events.
 
 
-Sessions are categorised as one of three types
+Sessions are categorised as one of three types:
 
 ::: {.unbulleted-list}
-* **P:** project demos, showcasing work from a particular project
-* **M:** methods demos, shwocasing how to use a particular method/tool/package
-* **S:** surgery/problem solving sessions
+* **Project** demos, showcasing work from a particular project
+* **Method** demos, showcasing how to use a particular method/tool/package
+* **Surgery** and problem solving sessions
 :::
 
-Sessions are also categorised into one of three levels
+Sessions are also categorised into one of three levels:
 
 ::: {.unbulleted-list}
 * **0**: No prior knowledge necessary (the default) - this session is suitable for everyone irrespective of their knowledge of coding or statistics
@@ -37,8 +35,27 @@ Sessions are also categorised into one of three levels
 * **2**: Stats/coding knowledge desirable - people without knowledge of statistics or coding might find it difficult to follow some segments of the session
 :::
 
+```{r include=FALSE}
 
-| Date | Title | Presenter | Abstract | Type | Level |
-|---:|---|---|---|---:|---:|
-| 6 Sept 19 | Intro to Coffee & Coding | Matt Kerlogue | Discussing what we want to get out of Coffee & Coding, the results of our [interest survey](cnc_setup_survey.html) and a demo of an [interactive map of civil servants](https://coanalysis.github.io/cs-mapping/cs_lad.html). | P | 0 |
+library(tidyverse)
+library(knitr)
+library(DT)
 
+sched <- jsonlite::fromJSON("schedule.JSON") %>% 
+  tibble::as_tibble() %>%
+  mutate(date = lubridate::ymd(date),
+         author = as_factor(author),
+         type = factor(type, levels = c("Project", "Method", "Surgery")),
+         abstract = str_wrap(abstract, width = 30))
+  
+```
+
+``` {r echo=FALSE}
+
+datatable(sched, escape = FALSE, filter = "top",
+          colnames = str_to_title(names(sched)), rownames = FALSE,
+          options = list(dom = "tr", paging = FALSE, searching = TRUE, ordering = FALSE)
+          ) %>%
+  formatDate(1, "toDateString")
+
+```

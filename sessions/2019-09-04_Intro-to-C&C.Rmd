@@ -1,0 +1,37 @@
+---
+output:
+  govdown::govdown_document:
+    page_title: "CO C&C Session: Introduction to Coffee & Coding"
+---
+
+## Introduction to Coffee & Coding
+
+::: {.lead-para}
+This session was an informal disucssion about setting up Coffee & Coding in the Cabinet Office, and a quick demo of a project mapping civil servants by local authority.
+:::
+
+Table: Session details
+
+| | |
+|--:|--|
+| Date | 04 September 2019 |
+| Presenter | Matt Kerlogue |
+| Abstract | Discussing what we want to get out of Coffee & Coding, the results of our interest survey and a demo of an interactive map of civil servants. |
+| Type | Project showcase |
+| Level | 0: No experience necessary |
+
+#### Coffee & Coding 
+
+We discussed the results of our [interest survey](../docs/cnc_setup_survey.html) and people's experiences of C&C in other departments. We agreed to hold C&C sessions on a fortnightly basis, and that Friday was the best option to fit with people's schedules. Wherever possible virtual attendence should be supported so that people in other buildings or who work from home can easily participate.
+
+#### Mapping civil servants
+A demonstration of the [civil servants by local authority (2018) map](https://co-analysis.github.io/csmapping/cs_lad_2018.html), which draws down data from the NOMIS API and the ONS Geoportal to create an interactive map in an RMarkdown document using leaflet.
+
+
+#### Related links
+
+* [Civil Servants by local authority, 2018](https://co-analysis.github.io/csmapping/cs_lad_2018.html)
+* [NOMIS](https://www.nomisweb.co.uk/) for API access to ONS Statistics
+* [ONS Open Geography Portal](http://geoportal.statistics.gov.uk/)
+* [Leaflet](https://rstudio.github.io/leaflet/) R wrapper for [Leaflet.js](https://leafletjs.com)
+* [DT](https://rstudio.github.io/DT/) R wrapper for [DataTables](https://datatables.net/)
