@@ -15,4 +15,4 @@ output:
 exclude: ["node_modules", "DESCRIPTION", "inst", "install-govuk-frontend.sh",
           "LICENSE", "LICENSE.md", "LICENSE.html", "man", "NAMESPACE",
           "package.json", "R", ".Rbuildignore", "README.md", "README.html",
-          "scss", "tags", "schedule.JSON", "template.Rmd"]
+          "scss", "tags", "schedule.JSON", "template.Rmd", "sessions"]

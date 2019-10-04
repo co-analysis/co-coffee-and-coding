@@ -22,7 +22,7 @@
   gtag('config', 'UA-139844526-1');
 </script>
   <meta charset="utf-8" />
-  <title>CO C&amp;C Session: [Your Session Title]</title>
+  <title>CO C&amp;C Session: Introduction to Coffee &amp; Coding</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b0c0c" />
 
@@ -4166,10 +4166,10 @@ color: #d14;
 
   <div class="govuk-width-container">
     <main class="govuk-main-wrapper " id="main-content" role="main">
-            <h2 id="your-session-title" class="govuk-heading-l">[Your Session Title]</h2>
+            <h2 id="introduction-to-coffee-coding" class="govuk-heading-l">Introduction to Coffee &amp; Coding</h2>
 <div>
 <p class="govuk-body-l">
-An example template for a brief write-up of a C&amp;C session. Remember to edit the page title in the YAML header above replacing <code>[Your Session Title]</code> with the title of your session
+This session was an informal disucssion about setting up Coffee &amp; Coding in the Cabinet Office, and a quick demo of a project mapping civil servants by local authority.
 </p>
 </div>
 <table class="govuk-table">
@@ -4188,7 +4188,7 @@ An example template for a brief write-up of a C&amp;C session. Remember to edit 
 Date
 </td>
 <td class="govuk-table__cell">
-04 September 2019
+06 September 2019
 </td>
 </tr>
 <tr class="govuk-table__row">
@@ -4204,7 +4204,7 @@ Matt Kerlogue
 Abstract
 </td>
 <td class="govuk-table__cell">
-An example write-up of a C&amp;C session
+Discussing what we want to get out of Coffee &amp; Coding, the results of our interest survey and a demo of an interactive map of civil servants.
 </td>
 </tr>
 <tr class="govuk-table__row">
@@ -4212,7 +4212,7 @@ An example write-up of a C&amp;C session
 Type
 </td>
 <td class="govuk-table__cell">
-Project demo / Methods demo / Surgey or problem solving
+Project demo
 </td>
 </tr>
 <tr class="govuk-table__row">
@@ -4220,35 +4220,35 @@ Project demo / Methods demo / Surgey or problem solving
 Level
 </td>
 <td class="govuk-table__cell">
-0: No experience necessary / 1: Stats/coding knowledge would be helpful / 2: Stats/coding knowledge desirable
+0: No experience necessary
 </td>
 </tr>
 </tbody>
 </table>
-<h4 id="structure" class="govuk-heading-s">Structure</h4>
+<h4 id="coffee-coding" class="govuk-heading-s">Coffee &amp; Coding</h4>
 <p class="govuk-body">
-A session write-up should be a simple R markdown document, use this as a template. Use an H2 heading (<code>##</code>) for the session title followed by a <code>lead-para</code> block that gives a short synopsis of the session and complete the session details table. Then use H4 headings (<code>####</code>) for further section headings in the markdown document. Save it in the root directory in the format: <code>session_YYYY-MM-DD_session-title.Rmd</code>, with spaces in the session title as dashes. If you’d like to provide other files, create a subfolder in the sessions directory for the session (with thte name YYYY-MM-DD_session-title) - note that markdown in these folders will not be rendered into HTML.
+We discussed the results of our <a href="../docs/cnc_setup_survey.html" class="govuk-link">interest survey</a> and people’s experiences of C&amp;C in other departments. We agreed to hold C&amp;C sessions on a fortnightly basis, and that Friday was the best option to fit with people’s schedules. Wherever possible virtual attendence should be supported so that people in other buildings or who work from home can easily participate.
 </p>
-<h4 id="what-to-include" class="govuk-heading-s">What to include</h4>
+<h4 id="mapping-civil-servants" class="govuk-heading-s">Mapping civil servants</h4>
 <p class="govuk-body">
-A session write-up should be brief, outlining what proejct/tools demonstrated and what particular features of the project/tools were focussed on. Do not include any sensitive information as these are public domain records.
+A demonstration of the <a href="https://co-analysis.github.io/csmapping/cs_lad_2018.html" class="govuk-link">civil servants by local authority (2018) map</a>, which draws down data from the NOMIS API and the ONS Geoportal to create an interactive map in an RMarkdown document using leaflet.
 </p>
-<h4 id="links" class="govuk-heading-s">Links</h4>
-<p class="govuk-body">
-Please try to provide some links:
-</p>
+<h4 id="related-links" class="govuk-heading-s">Related links</h4>
 <ul class="govuk=list govuk-list--bullet">
 <li class="govuk-body">
-at the very least provide links to the R packages/Python libraries used
+<a href="https://co-analysis.github.io/csmapping/cs_lad_2018.html" class="govuk-link">Civil Servants by local authority, 2018</a>
 </li>
 <li class="govuk-body">
-if the project or example is in a public repository provide a link to it
+<a href="https://www.nomisweb.co.uk/" class="govuk-link">NOMIS</a> for API access to ONS Statistics
 </li>
 <li class="govuk-body">
-provide links to external examples how the package is used
+<a href="http://geoportal.statistics.gov.uk/" class="govuk-link">ONS Open Geography Portal</a>
 </li>
 <li class="govuk-body">
-or further reading, or people to follow on Twitter
+<a href="https://rstudio.github.io/leaflet/" class="govuk-link">Leaflet</a> R wrapper for <a href="https://leafletjs.com" class="govuk-link">Leaflet.js</a>
+</li>
+<li class="govuk-body">
+<a href="https://rstudio.github.io/DT/" class="govuk-link">DT</a> R wrapper for <a href="https://datatables.net/" class="govuk-link">DataTables</a>
 </li>
 </ul>
     </main>

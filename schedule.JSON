@@ -4,7 +4,8 @@
   "author" : "Matt Kerlogue",
   "abstract" : "Discussing what we want to get out of Coffee & Coding the results of our <a href=\"cnc_setup_survey.html\">interest survey</a> and a demo of an <a href=\"https://coanalysis.github.io/cs-mapping/cs_lad.html\">interactive map of civil servants</a>.",
   "type" : "Project",
-  "level" : 0
+  "level" : 0,
+  "url": "session_2019-09-06_Intro-to-C&C"
 },
 {
   "date" : "2019-10-04",
@@ -12,7 +13,8 @@
   "author" : "Matt Kerlogue",
   "abstract" : "An introduction to making charts using the R packages <a href=\"https://ggplot2.tidyverse.org/\">ggplot</a> and <a href=\"http://ukgovdatascience.github.io/govstyle/index.html\">govstyle</a>.",
   "type" : "Method",
-  "level" : 0
+  "level" : 0,
+  "url": "session_2019-10-04_ggplot2-and-govstyle"
 },
 {
   "date" : "2019-10-18",
@@ -20,7 +22,8 @@
   "author" : "",
   "abstract" : "",
   "type" : "",
-  "level" : null
+  "level" : null,
+  "url": null
 },
 {
   "date" : "2019-11-01",
@@ -28,7 +31,8 @@
   "author" : "",
   "abstract" : "",
   "type" : "",
-  "level" : null
+  "level" : null,
+  "url": null
 },
 {
   "date" : "2019-11-15",
@@ -36,7 +40,8 @@
   "author" : "",
   "abstract" : "",
   "type" : "",
-  "level" : null
+  "level" : null,
+  "url": null
 },
 {
   "date" : "2019-11-29",
@@ -44,7 +49,7 @@
   "author" : "",
   "abstract" : "",
   "type" : "",
-  "level" : null
+  "url" : null
 },
 {
   "date" : "2019-12-13",
@@ -52,5 +57,6 @@
   "author" : "",
   "abstract" : "",
   "type" : "",
-  "level" : null
+  "level" : null,
+  "url": null
 }]

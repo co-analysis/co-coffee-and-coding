@@ -41,11 +41,25 @@ library(tidyverse)
 library(knitr)
 library(DT)
 
+sessionlink <- function(label, url) {
+  if (is.na(url)) {
+    out_text <- label
+  } else {
+    out_text <-
+    paste0(
+      "<a href=\"", url, ".html\">", label, "</a>"
+      )
+  }
+  return(out_text)
+}
+
 sched <- jsonlite::fromJSON("schedule.JSON") %>% 
   tibble::as_tibble() %>%
   mutate(date = lubridate::ymd(date),
+         title = pmap_chr(list(title, url), sessionlink),
          author = as_factor(author),
-         type = factor(type, levels = c("Project", "Method", "Surgery")))
+         type = factor(type, levels = c("Project", "Method", "Surgery"))) %>%
+  select(-url)
   
 ```
 

@@ -22,7 +22,7 @@
   gtag('config', 'UA-139844526-1');
 </script>
   <meta charset="utf-8" />
-  <title>CO C&amp;C Session: [Your Session Title]</title>
+  <title>CO C&amp;C Session: ggplot2 and govstyle</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b0c0c" />
 
@@ -4166,10 +4166,10 @@ color: #d14;
 
   <div class="govuk-width-container">
     <main class="govuk-main-wrapper " id="main-content" role="main">
-            <h2 id="your-session-title" class="govuk-heading-l">[Your Session Title]</h2>
+            <h2 id="making-charts-in-r-with-ggplot2-and-govstyle" class="govuk-heading-l">Making charts in R with ggplot2 and govstyle</h2>
 <div>
 <p class="govuk-body-l">
-An example template for a brief write-up of a C&amp;C session. Remember to edit the page title in the YAML header above replacing <code>[Your Session Title]</code> with the title of your session
+This presentation takes you through making charts in <code>ggplot2</code> and using the <code>govstyle</code> package to apply GOV.UK style themeing to plots.
 </p>
 </div>
 <table class="govuk-table">
@@ -4188,7 +4188,7 @@ An example template for a brief write-up of a C&amp;C session. Remember to edit 
 Date
 </td>
 <td class="govuk-table__cell">
-04 September 2019
+04 October 2019
 </td>
 </tr>
 <tr class="govuk-table__row">
@@ -4204,7 +4204,7 @@ Matt Kerlogue
 Abstract
 </td>
 <td class="govuk-table__cell">
-An example write-up of a C&amp;C session
+An introduction to making charts using the R packages ggplot and govstyle.
 </td>
 </tr>
 <tr class="govuk-table__row">
@@ -4212,7 +4212,7 @@ An example write-up of a C&amp;C session
 Type
 </td>
 <td class="govuk-table__cell">
-Project demo / Methods demo / Surgey or problem solving
+Methods demo
 </td>
 </tr>
 <tr class="govuk-table__row">
@@ -4220,18 +4220,20 @@ Project demo / Methods demo / Surgey or problem solving
 Level
 </td>
 <td class="govuk-table__cell">
-0: No experience necessary / 1: Stats/coding knowledge would be helpful / 2: Stats/coding knowledge desirable
+0: No experience necessary
 </td>
 </tr>
 </tbody>
 </table>
-<h4 id="structure" class="govuk-heading-s">Structure</h4>
+<h4 id="details" class="govuk-heading-s">Details</h4>
 <p class="govuk-body">
-A session write-up should be a simple R markdown document, use this as a template. Use an H2 heading (<code>##</code>) for the session title followed by a <code>lead-para</code> block that gives a short synopsis of the session and complete the session details table. Then use H4 headings (<code>####</code>) for further section headings in the markdown document. Save it in the root directory in the format: <code>session_YYYY-MM-DD_session-title.Rmd</code>, with spaces in the session title as dashes. If you’d like to provide other files, create a subfolder in the sessions directory for the session (with thte name YYYY-MM-DD_session-title) - note that markdown in these folders will not be rendered into HTML.
+The presentation uses the Cabinet Office’s <a href="https://www.gov.uk/government/statistics/freedom-of-information-statistics-april-to-june-2019" class="govuk-link">FOI Statistics 2019 Q2 release</a> to demonstrate how to use <code>ggplot2</code> to create three types of chart: a column chart, a stacked column chart and a line chart. It uses the slow ggplot approach introduced by Gina Reynold’s excellent <a href="https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html" class="govuk-link">ggplot flipbook</a>.
 </p>
-<h4 id="what-to-include" class="govuk-heading-s">What to include</h4>
 <p class="govuk-body">
-A session write-up should be brief, outlining what proejct/tools demonstrated and what particular features of the project/tools were focussed on. Do not include any sensitive information as these are public domain records.
+<span class="govuk-!-font-weight-bold">View the presentation <a href="https://mattkerlogue.github.io/ggplot-and-govstyle-slides/ggplot_and_govstyle_slides.html" class="govuk-link">here</a>.</span>
+</p>
+<p class="govuk-body">
+Download the <a href="https://github.com/mattkerlogue/ggplot-and-govstyle-slides" class="govuk-link">Rmd/repo</a> to use the code yourself. Note you’ll also need to install <a href="https://slides.yihui.name/xaringan/" class="govuk-link">xarignan</a> if you want to build the slides yourself.
 </p>
 <h4 id="links" class="govuk-heading-s">Links</h4>
 <p class="govuk-body">
@@ -4239,16 +4241,22 @@ Please try to provide some links:
 </p>
 <ul class="govuk=list govuk-list--bullet">
 <li class="govuk-body">
-at the very least provide links to the R packages/Python libraries used
+Gina Reynolds’ excellent <a href="https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html" class="govuk-link">ggplot flipbook</a>, the inspiration for these slides
 </li>
 <li class="govuk-body">
-if the project or example is in a public repository provide a link to it
+The <code>ggplot2</code> <a href="https://ggplot2.tidyverse.org/reference/index.html" class="govuk-link">reference</a> documentation
 </li>
 <li class="govuk-body">
-provide links to external examples how the package is used
+The <a href="https://r4ds.had.co.nz/data-visualisation.html" class="govuk-link">data visualisation</a> chapter of Hadley Wickham’s R for Data Science
 </li>
 <li class="govuk-body">
-or further reading, or people to follow on Twitter
+Hadley’s <a href="http://vita.had.co.nz/papers/layered-grammar.pdf" class="govuk-link">Layered Grammar of Graphics</a> paper
+</li>
+<li class="govuk-body">
+The <a href="https://plot.ly/ggplot2/" class="govuk-link"><code>ggplotly()</code></a> function of the <code>plotly</code> package that transforms ggplots into interactive charts
+</li>
+<li class="govuk-body">
+The <a href="https://www.r-graph-gallery.com/" class="govuk-link">R Graph Gallery</a> which uses <code>ggplot2</code> for many of its examples
 </li>
 </ul>
     </main>

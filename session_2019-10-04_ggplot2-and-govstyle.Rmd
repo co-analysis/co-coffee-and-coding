@@ -1,0 +1,40 @@
+---
+output:
+  govdown::govdown_document:
+    page_title: "CO C&C Session: ggplot2 and govstyle"
+---
+
+## Making charts in R with ggplot2 and govstyle
+
+::: {.lead-para}
+This presentation takes you through making charts in `ggplot2` and using the `govstyle` package to apply GOV.UK style themeing to plots.
+:::
+
+Table: Session details
+
+| | |
+|--:|--|
+| Date | 04 October 2019 |
+| Presenter | Matt Kerlogue |
+| Abstract | An introduction to making charts using the R packages ggplot and govstyle. |
+| Type | Methods demo |
+| Level | 0: No experience necessary |
+
+#### Details
+
+The presentation uses the Cabinet Office's [FOI Statistics 2019 Q2 release](https://www.gov.uk/government/statistics/freedom-of-information-statistics-april-to-june-2019) to demonstrate how to use `ggplot2` to create three types of chart: a column chart, a stacked column chart and a line chart. It uses the slow ggplot approach introduced by Gina Reynold's excellent [ggplot flipbook](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html).
+
+**View the presentation [here](https://mattkerlogue.github.io/ggplot-and-govstyle-slides/ggplot_and_govstyle_slides.html).**
+
+Download the [Rmd/repo](https://github.com/mattkerlogue/ggplot-and-govstyle-slides) to use the code yourself. Note you'll also need to install [xarignan](https://slides.yihui.name/xaringan/) if you want to build the slides yourself.
+
+#### Links
+
+Please try to provide some links:
+
+* Gina Reynolds' excellent [ggplot flipbook](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html), the inspiration for these slides
+* The `ggplot2` [reference](https://ggplot2.tidyverse.org/reference/index.html) documentation
+* The [data visualisation](https://r4ds.had.co.nz/data-visualisation.html) chapter of Hadley Wickham's *R for Data Science*
+* Hadley's [Layered Grammar of Graphics](http://vita.had.co.nz/papers/layered-grammar.pdf) paper
+* The [`ggplotly()`](https://plot.ly/ggplot2/) function of the `plotly` package that transforms ggplots into interactive charts
+* The [R Graph Gallery](https://www.r-graph-gallery.com/) which uses `ggplot2` for many of its examples

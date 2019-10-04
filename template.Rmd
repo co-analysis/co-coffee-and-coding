@@ -1,7 +1,7 @@
 ---
 output:
   govdown::govdown_document:
-    page_title: "CO C&C: [Your Session Title]"
+    page_title: "CO C&C Session: [Your Session Title]"
 ---
 
 ## [Your Session Title]
@@ -15,13 +15,14 @@ Table: Session details
 | | |
 |--:|--|
 | Date | 04 September 2019 |
+| Presenter | Matt Kerlogue |
 | Abstract | An example write-up of a C&C session |
-| Type | Project showcase |
-| Level | 0: No experience necessary |
+| Type | Project demo / Methods demo / Surgey or problem solving |
+| Level | 0: No experience necessary / 1: Stats/coding knowledge would be helpful / 2: Stats/coding knowledge desirable |
 
 #### Structure 
 
-A session write-up should be a simple R markdown document, use this as a template. Use an H2 heading (`##`) for the session title followed by a `lead-para` block that gives a short synopsis of the session and complete the session details table. Then use H4 headings (`####`) for further section headings in the markdown document. Save it in the sessions directory in the format: `YYYY-MM-DD_title.Rmd`
+A session write-up should be a simple R markdown document, use this as a template. Use an H2 heading (`##`) for the session title followed by a `lead-para` block that gives a short synopsis of the session and complete the session details table. Then use H4 headings (`####`) for further section headings in the markdown document. Save it in the root directory in the format: `session_YYYY-MM-DD_session-title.Rmd`, with spaces in the session title as dashes. If you'd like to provide other files, create a subfolder in the sessions directory for the session (with thte name YYYY-MM-DD_session-title) - note that markdown in these folders will not be rendered into HTML.
 
 #### What to include
 

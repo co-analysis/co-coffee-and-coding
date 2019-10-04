@@ -14,10 +14,10 @@ Table: Session details
 
 | | |
 |--:|--|
-| Date | 04 September 2019 |
+| Date | 06 September 2019 |
 | Presenter | Matt Kerlogue |
 | Abstract | Discussing what we want to get out of Coffee & Coding, the results of our interest survey and a demo of an interactive map of civil servants. |
-| Type | Project showcase |
+| Type | Project demo |
 | Level | 0: No experience necessary |
 
 #### Coffee & Coding 

@@ -1,6 +1,8 @@
+<img src="http://www.nationalarchives.gov.uk/images/infoman/ogl-symbol-41px-retina-black.png" align="right" alt="OGL logo">
+
 # Open Government Licence v3.0
 
-(C) CROWN COPYRIGHT 2019
+&copy; CROWN COPYRIGHT 2019
 
 The material in this repository is [Crown Copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/), all content is available under the [**Open Government Licence version v3.0**](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/), except where otherwise stated.
 
@@ -73,9 +75,5 @@ This is version 3.0 of the Open Government Licence. The National Archives may, f
 These terms are compatible with the Creative Commons Attribution License 4.0 and the Open Data Commons Attribution License, both of which license copyright and database rights. This means that when the Information is adapted and licensed under either of those licences, you automatically satisfy the conditions of the OGL when you comply with the other licence. The OGLv3.0 is Open Definition compliant.
 
 Further context, best practice and guidance can be found in the [UK Government Licensing Framework](http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/) section on The National Archives website.
-
-::: {style="align:right"}
-![OGL logo](http://www.nationalarchives.gov.uk/images/infoman/ogl-symbol-41px-retina-black.png)
-:::
 
 The definitive version of this licence can be found on [The National Archives website](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/). A [Welsh language version](http://www.nationalarchives.gov.uk/doc/open-government-licence-cymraeg/version/3/) is also available.
