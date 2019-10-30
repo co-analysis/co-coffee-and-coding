@@ -31,7 +31,7 @@
   "author" : "Matt Dray",
   "abstract" : "R packages: when should you make one and how do you do it? Matt Dray will live-build a minimal package with <a href=\"https://usethis.r-lib.org/\">{usethis}</a>, a package that greatly simplifies the process.",
   "type" : "Method",
-  "level" : null,
+  "level" : 0,
   "url": "session_2019-11-01_r-package-usethis"
 },
 {
