@@ -18,21 +18,21 @@
 },
 {
   "date" : "2019-10-18",
-  "title" : "tbc",
-  "author" : "",
-  "abstract" : "",
-  "type" : "",
-  "level" : null,
+  "title" : "Tidy Tuesday",
+  "author" : "Duncan Garmonsway",
+  "abstract" : "This week we will have our very own <a href=\"https://github.com/rfordatascience/tidytuesday\">Tidy Tuesday</a> screencast: Duncan Garmonsway will try to analyse an unseen dataset using R and RStudio, and hopefully demonstrate some handy techniques.",
+  "type" : "Method",
+  "level" : 0,
   "url": null
 },
 {
   "date" : "2019-11-01",
-  "title" : "tbc",
-  "author" : "",
-  "abstract" : "",
-  "type" : "",
-  "level" : null,
-  "url": null
+  "title" : "Make an R package the easy way",
+  "author" : "Matt Dray",
+  "abstract" : "R packages: when should you make one and how do you do it? Matt Dray will live-build a minimal package with <a href=\"https://usethis.r-lib.org/\">{usethis}</a>, a package that greatly simplifies the process.",
+  "type" : "Method",
+  "level" : 0,
+  "url": "session_2019-11-01_r-package-usethis"
 },
 {
   "date" : "2019-11-15",
