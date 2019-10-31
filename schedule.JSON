@@ -36,11 +36,11 @@
 },
 {
   "date" : "2019-11-15",
-  "title" : "tbc",
-  "author" : "",
+  "title" : "Automating reports with RMarkdown",
+  "author" : "Ben Vigreux",
   "abstract" : "",
-  "type" : "",
-  "level" : null,
+  "type" : "Method",
+  "level" : 0,
   "url": null
 },
 {
