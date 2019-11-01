@@ -11,7 +11,7 @@
   "date" : "2019-10-04",
   "title" : "Making charts in R with ggplot & govstyle",
   "author" : "Matt Kerlogue",
-  "abstract" : "An introduction to making charts using the R packages <a href=\"https://ggplot2.tidyverse.org/\">ggplot</a> and <a href=\"http://ukgovdatascience.github.io/govstyle/index.html\">govstyle</a>.",
+  "abstract" : "An introduction to making charts using the R packages {<a href=\"https://ggplot2.tidyverse.org/\">ggplot2</a>} and {<a href=\"http://ukgovdatascience.github.io/govstyle/index.html\">govstyle</a>}.",
   "type" : "Method",
   "level" : 0,
   "url": "session_2019-10-04_ggplot2-and-govstyle"
@@ -38,21 +38,85 @@
   "date" : "2019-11-15",
   "title" : "Automating reports with RMarkdown",
   "author" : "Ben Vigreux",
-  "abstract" : "",
+  "abstract" : "What is <a href=\"https://rmarkdown.rstudio.com/\">R Markdown</a>?  When would you want to use it? And how do you go about creating your first R Markdown report? Ben Vigreux from the Government Equalities Office (GEO) will run through a simple example to demonstrate this powerful format.",
   "type" : "Method",
   "level" : 0,
   "url": null
 },
 {
   "date" : "2019-11-29",
-  "title" : "tbc",
-  "author" : "",
-  "abstract" : "",
-  "type" : "",
+  "title" : "Static and interactive maps in R",
+  "author" : "Matt Kerlogue",
+  "abstract" : "To coincide with the 2019 <a href=\"https://www.eventbrite.co.uk/e/geography-in-government-conference-2019-registration-69401227941\">Geography in Government</a> conference, an introduction to using R for statistical mapping in {<a href=\"https://ggplot2.tidyverse.org/\">ggplot2</a>} for static maps and {<a href=\"https://rstudio.github.io/leaflet/\">leaflet</a>} for interactive maps.",
+  "type" : "Method",
+  "level" : 0,
   "url" : null
 },
 {
   "date" : "2019-12-13",
+  "title" : "tbc",
+  "author" : "",
+  "abstract" : "",
+  "type" : "",
+  "level" : null,
+  "url": null
+},
+{
+  "date" : "2020-01-10",
+  "title" : "tbc",
+  "author" : "",
+  "abstract" : "",
+  "type" : "",
+  "level" : null,
+  "url": null
+},
+{
+  "date" : "2020-01-24",
+  "title" : "tbc",
+  "author" : "",
+  "abstract" : "",
+  "type" : "",
+  "level" : null,
+  "url": null
+},
+{
+  "date" : "2020-02-07",
+  "title" : "tbc",
+  "author" : "",
+  "abstract" : "",
+  "type" : "",
+  "level" : null,
+  "url": null
+},
+{
+  "date" : "2020-02-21",
+  "title" : "tbc",
+  "author" : "",
+  "abstract" : "",
+  "type" : "",
+  "level" : null,
+  "url": null
+},
+{
+  "date" : "2020-03-06",
+  "title" : "tbc",
+  "author" : "",
+  "abstract" : "",
+  "type" : "",
+  "level" : null,
+  "url": null
+},
+{
+  "date" : "2020-03-20",
+  "title" : "tbc",
+  "author" : "",
+  "abstract" : "",
+  "type" : "",
+  "level" : null,
+  "url": null
+},
+{
+  "date" : "2020-04-03",
   "title" : "tbc",
   "author" : "",
   "abstract" : "",
