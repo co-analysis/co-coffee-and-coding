@@ -2,9 +2,11 @@
 
 # Open Government Licence v3.0
 
-&copy; CROWN COPYRIGHT 2019
+&copy; CROWN COPYRIGHT 2019, Cabinet Office
 
-The material in this repository is [Crown Copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/), all content is available under the [**Open Government Licence version v3.0**](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/), except where otherwise stated.
+The material in this repository is [Crown Copyright](https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/). All content is available under the [**Open Government Licence version v3.0**](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/), except where otherwise stated.
+
+---
 
 You are encouraged to use and re-use the Information that is available under this licence freely and flexibly, with only a few conditions.
 
