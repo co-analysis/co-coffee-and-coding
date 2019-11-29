@@ -45,9 +45,9 @@
 },
 {
   "date" : "2019-11-29",
-  "title" : "Static and interactive maps in R",
+  "title" : "Introduction to mapping in R (1): static maps",
   "author" : "Matt Kerlogue",
-  "abstract" : "To coincide with the 2019 <a href=\"https://www.eventbrite.co.uk/e/geography-in-government-conference-2019-registration-69401227941\">Geography in Government</a> conference, an introduction to using R for statistical mapping in {<a href=\"https://ggplot2.tidyverse.org/\">ggplot2</a>} for static maps and {<a href=\"https://rstudio.github.io/leaflet/\">leaflet</a>} for interactive maps.",
+  "abstract" : "To coincide with the 2019 <a href=\"https://www.eventbrite.co.uk/e/geography-in-government-conference-2019-registration-69401227941\">Geography in Government</a> conference, an introduction to using R for statistical mapping in {<a href=\"https://ggplot2.tidyverse.org/\">ggplot2</a>}.",
   "type" : "Method",
   "level" : 0,
   "url" : null
