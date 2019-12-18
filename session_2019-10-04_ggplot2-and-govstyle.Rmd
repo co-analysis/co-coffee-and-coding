@@ -30,8 +30,6 @@ Download the [Rmd/repo](https://github.com/mattkerlogue/ggplot-and-govstyle-slid
 
 #### Links
 
-Please try to provide some links:
-
 * Gina Reynolds' excellent [ggplot flipbook](https://evamaerey.github.io/ggplot_flipbook/ggplot_flipbook_xaringan.html), the inspiration for these slides
 * The `ggplot2` [reference](https://ggplot2.tidyverse.org/reference/index.html) documentation
 * The [data visualisation](https://r4ds.had.co.nz/data-visualisation.html) chapter of Hadley Wickham's *R for Data Science*

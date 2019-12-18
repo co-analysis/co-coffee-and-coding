@@ -50,15 +50,15 @@
   "abstract" : "To coincide with the 2019 <a href=\"https://www.eventbrite.co.uk/e/geography-in-government-conference-2019-registration-69401227941\">Geography in Government</a> conference, an introduction to using R for statistical mapping in {<a href=\"https://ggplot2.tidyverse.org/\">ggplot2</a>}.",
   "type" : "Method",
   "level" : 0,
-  "url" : null
+  "url" : "session_2019-11-29_mapping-1-static-maps"
 },
 {
   "date" : "2019-12-13",
-  "title" : "tbc",
-  "author" : "",
-  "abstract" : "",
-  "type" : "",
-  "level" : null,
+  "title" : "The GDSP conference and C&C in review",
+  "author" : null,
+  "abstract" : "A round-up of the 2019 Government Data Science Partnership Conference, and a review of the first orund of Cabinet Office Coffee & Coding sessions.",
+  "type" : null,
+  "level" : 0,
   "url": null
 },
 {

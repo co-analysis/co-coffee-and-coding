@@ -1,0 +1,30 @@
+---
+output:
+  govdown::govdown_document:
+    page_title: "CO C&C Session: ggplot2 and govstyle"
+---
+
+## Introduction to mapping in R (1): static maps
+
+::: {.lead-para}
+This presentation takes you through the basics of making a static map in R using `ggplot2` and `sf`.
+:::
+
+Table: Session details
+
+| | |
+|--:|--|
+| Date | 29 November 2019 |
+| Presenter | Matt Kerlogue |
+| Abstract | An introduction to using R for statistical mapping. |
+| Type | Methods demo |
+| Level | 0: No experience necessary |
+
+#### Details
+
+The presentation uses the Cabinet Office's [Civil Service Statistics 2019](https://www.gov.uk/government/statistics/civil-service-statistics-2019) to demonstrate how to use `ggplot2` and `sf` to make a simple static map.
+
+**View the presentation [here](https://mattkerlogue.github.io/mapping-in-r/static_map.html).**
+
+Download the [Rmd/repo](https://github.com/mattkerlogue/mapping-in-r) to use the code yourself. Note you'll also need to install [xarignan](https://slides.yihui.name/xaringan/) if you want to build the slides yourself.
+
