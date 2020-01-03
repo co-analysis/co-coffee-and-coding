@@ -67,6 +67,10 @@ datatable(sched, escape = FALSE, filter = "top",
           colnames = str_to_title(names(sched)), rownames = FALSE,
           options = list(dom = "tr", paging = FALSE, searching = TRUE, ordering = FALSE)
           ) %>%
-  formatDate(1, "toDateString")
+  formatDate(1, "toLocaleDateString", 
+             params = list("en-GB", 
+                           list(year = "numeric",
+                                month = "short",
+                                day = "numeric")))
 
 ```

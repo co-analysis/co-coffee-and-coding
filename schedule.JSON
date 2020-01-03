@@ -63,11 +63,11 @@
 },
 {
   "date" : "2020-01-10",
-  "title" : "tbc",
-  "author" : "",
-  "abstract" : "",
-  "type" : "",
-  "level" : null,
+  "title" : "Introduction to mapping in R (2): interactive maps",
+  "author" : "Matt Kerlogue",
+  "abstract" : "Following on from the first session on <a href=\"session_2019-11-29_mapping-1-static-maps.html\"> static maps</a>, an introduction to making interactive maps in R.",
+  "type" : "Method",
+  "level" : 0,
   "url": null
 },
 {
@@ -81,11 +81,11 @@
 },
 {
   "date" : "2020-02-07",
-  "title" : "tbc",
-  "author" : "",
-  "abstract" : "",
-  "type" : "",
-  "level" : null,
+  "title" : "Exploring survey results with PowerBI",
+  "author" : "Ellen Clowser",
+  "abstract" : "A number of teams in the Cabinet Office use Smart Survey to run surveys with stakeholders and users. This session demonstrates a project using PowerBI and Smart Survey's API to query survey results.",
+  "type" : "Project",
+  "level" : 0,
   "url": null
 },
 {
