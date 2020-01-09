@@ -10,7 +10,7 @@ This is a microsite and associated public [github repo](https://github.com/co-an
 Coffee & Coding provides a regular opportunity for analysts in the Cabinet Office who are interested in coding to share skills and knowledge, provide advice and guidance to each other and generally network and get to know each other.
 
 ### When and where
-In the Cabinet Office, our Coffee & Coding sessions take place fortnightly on Friday mornings. Details of the specific meetups are provided in event invites sent out through the Cabinet Office analytical community, if you'd like to know more please get in touch via coffee-and-coding-admin@cabinetoffice.gov.uk.
+In the Cabinet Office, our Coffee & Coding sessions take place fortnightly on Friday mornings. Details of the specific meetups are provided in event invites sent out through the Cabinet Office analytical community, if you'd like to know more please get in touch via coffee-and-coding@cabinetoffice.gov.uk.
 
 
 ### Schedule
