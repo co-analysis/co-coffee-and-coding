@@ -22,14 +22,19 @@ Table: Session details
 
 #### Materials
 
-* [To be updated]
-
 I've written a couple of blog posts about this:
 
 * [Git going: the command line](https://www.rostrum.blog/2019/02/01/git-going-cl/)
 * [Git going: Git and GitHub](https://www.rostrum.blog/2019/10/21/git-github/)
 
-#### Links
+I'll refer also to:
+
+* [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans) by Alice Bartlett
+* [Happy Git and GitHub for the useR](https://happygitwithr.com/) by Jenny Bryan, the STAT545 TAs and Jim Hester
+* [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) by GitHub
+* [Resources to learn Git](https://try.github.io/) by GitHub
+
+#### Installation
 
 You should:
 
@@ -46,10 +51,3 @@ If you are in Cabinet Office and don't have administrator access to your machine
 And an example use justification (tailor for your needs):
 
 >I need Git to version control my code and work collaboratively with analysts in my team. Version control will reduce the chance for errors and minimise the storage burden of our work. It aso allows us to work in the open by pushing the version histories to GitHub, a website and cloud storage service. Working in the open is Principle 10 of the Govnerment Design Principles: https://www.gov.uk/guidance/government-design-principles#make-things-open-it-makes-things-better
-
-Other resources include:
-
-* [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans) by Alice Bartlett
-* [Happy Git and GitHub for the useR](https://happygitwithr.com/) by Jenny Bryan, the STAT545 TAs and Jim Hester
-* [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) by GitHub
-* [Resources to learn Git](https://try.github.io/) by GitHub
