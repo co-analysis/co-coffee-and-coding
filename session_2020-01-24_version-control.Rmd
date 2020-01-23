@@ -1,0 +1,53 @@
+---
+output:
+  govdown::govdown_document:
+    page_title: "CO C&C Session: Version control with Git and GitHub"
+---
+
+## Version control with Git and GitHub
+
+::: {.lead-para}
+Why should you be using version control software? What are Git and GitHub and how do you use them?
+:::
+
+Table: Session details
+
+| | |
+|--:|--|
+| Date | 24 January 2020 |
+| Presenter | Matt Dray |
+| Abstract | Ever got confused about with whether `file_v3_FINAL.txt` or `file_v3_THIS-ONE.txt` is the latest version? Ever needed to roll back a change but Ctrl+Z isn't cutting it? You need version control. Git is popular software for version control on your machine. GitHub is a website and cloud store for your version history that also lets you share and collaborate more easily. Matt Dray will explain these concepts and will demo a quick version control workflow covering Git and GitHub for an R project, making some use of the command line. |
+| Type | Methods demo |
+| Level | 0: No experience necessary |
+
+#### Materials
+
+I've written a couple of blog posts about this:
+
+* [Git going: the command line](https://www.rostrum.blog/2019/02/01/git-going-cl/)
+* [Git going: Git and GitHub](https://www.rostrum.blog/2019/10/21/git-github/)
+
+I'll refer also to:
+
+* [Git for Humans](https://speakerdeck.com/alicebartlett/git-for-humans) by Alice Bartlett
+* [Happy Git and GitHub for the useR](https://happygitwithr.com/) by Jenny Bryan, the STAT545 TAs and Jim Hester
+* [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) by GitHub
+* [Resources to learn Git](https://try.github.io/) by GitHub
+
+#### Installation
+
+You should:
+
+* [download Git](https://git-scm.com/downloads) (requires administrator access)
+* [sign up for GitHub](https://github.com/) (free)
+
+If you are in Cabinet Office and don't have administrator access to your machine, you will need to make a request for Git to be installed for you. Raise a service request from the IT Service desk with the following answers:
+
+* Software type: Analytical Software
+* Software name: Other
+* If other, please enter required software name: Git
+* Is this software chargeable?: No
+
+And an example use justification (tailor for your needs):
+
+>I need Git to version control my code and work collaboratively with analysts in my team. Version control will reduce the chance for errors and minimise the storage burden of our work. It aso allows us to work in the open by pushing the version histories to GitHub, a website and cloud storage service. Working in the open is Principle 10 of the Govnerment Design Principles: https://www.gov.uk/guidance/government-design-principles#make-things-open-it-makes-things-better

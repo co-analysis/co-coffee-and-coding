@@ -72,11 +72,11 @@
 },
 {
   "date" : "2020-01-24",
-  "title" : "tbc",
-  "author" : "",
-  "abstract" : "",
-  "type" : "",
-  "level" : null,
+  "title" : "Version control with Git and GitHub",
+  "author" : "Matt Dray",
+  "abstract" : "Why should you be using version control software? What are Git and GitHub and how do you use them?",
+  "type" : "Method",
+  "level" : 0,
   "url": null
 },
 {
