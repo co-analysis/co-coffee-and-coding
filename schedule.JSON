@@ -68,7 +68,7 @@
   "abstract" : "Following on from the first session on <a href=\"session_2019-11-29_mapping-1-static-maps.html\"> static maps</a>, an introduction to making interactive maps in R.",
   "type" : "Method",
   "level" : 0,
-  "url": null
+  "url": "session_2020-01-10_mapping-2-interactive-maps"
 },
 {
   "date" : "2020-01-24",
@@ -77,7 +77,7 @@
   "abstract" : "Why should you be using version control software? What are Git and GitHub and how do you use them?",
   "type" : "Method",
   "level" : 0,
-  "url": null
+  "url": "session_2020-01-24_version-control"
 },
 {
   "date" : "2020-02-07",

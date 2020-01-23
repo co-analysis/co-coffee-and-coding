@@ -1,0 +1,44 @@
+---
+output:
+  govdown::govdown_document:
+    page_title: "CO C&C Session: Interactive maps in R"
+---
+
+## Introduction to mapping in R (2): interactive maps
+
+::: {.lead-para}
+This presentation takes you through the basics of making an interactive map in R using `leaflet`.
+:::
+
+Table: Session details
+
+| | |
+|--:|--|
+| Date | 10 January 2020 |
+| Presenter | Matt Kerlogue |
+| Abstract | A quick and easy guide to making simple interactive maps in R |
+| Type | Methods demo |
+| Level | 0: No experience necessary |
+
+#### Details
+
+The presentation builds on the first session on [mapping in R](session_2019-11-29_mapping-1-static-maps.html), and uses the Cabinet Office's [Civil Service Statistics 2019](https://www.gov.uk/government/statistics/civil-service-statistics-2019) to demonstrate how to use `leaflet` to make a simple static map. It's recommended you view the first presentation if you've not used R to do any form of mapping as this introduces you to the `sf` package
+
+**View the presentation [here](https://mattkerlogue.github.io/mapping-in-r/interactive_map_full.html).** (note this is a large presenation and will take time to load)
+
+This presentation demonstrates the techniques used to make this [interactive map of civil servants](https://co-analysis.github.io/csmapping/cs_lad_2019.html) in the UK.
+
+Download the [Rmd/repo](https://github.com/mattkerlogue/mapping-in-r) to use the code yourself. Note you'll also need to install [xarignan](https://slides.yihui.name/xaringan/) if you want to build the slides yourself.
+
+#### Resources
+
+* [Civil Service mapping repo](https://www.github.com/co-analysis/csmapping): the project this presentation is based on
+
+* R-Journalism introduction to [interactive mapping](https://learn.r-journalism.com/en/mapping/leaflet_maps/leaflet/) using `leaflet`
+
+* [Leaflet (R)](https://rstudio.github.io/leaflet/): R package documentation
+* [Leaflet.JS](https://leafletjs.com/): the underlying JavaScript library
+* [ONS Geoportal](http://geoportal.statistics.gov.uk/)
+
+
+
