@@ -22,10 +22,12 @@ Table: Session details
 
 #### Materials
 
+We went through [some slides that were used to teach Data Science Accelerator participants](https://docs.google.com/presentation/d/1lD2nJZvlOG28Cyc2x4PUztAZJZ6yLJbtPXgBFJiC8bo/edit#slide=id.g5eb9c7d39b_0_181).
+
 I've written a couple of blog posts about this:
 
-* [Git going: the command line](https://www.rostrum.blog/2019/02/01/git-going-cl/)
 * [Git going: Git and GitHub](https://www.rostrum.blog/2019/10/21/git-github/)
+* [Git going: the command line](https://www.rostrum.blog/2019/02/01/git-going-cl/)
 
 I'll refer also to:
 
@@ -50,4 +52,4 @@ If you are in Cabinet Office and don't have administrator access to your machine
 
 And an example use justification (tailor for your needs):
 
->I need Git to version control my code and work collaboratively with analysts in my team. Version control will reduce the chance for errors and minimise the storage burden of our work. It aso allows us to work in the open by pushing the version histories to GitHub, a website and cloud storage service. Working in the open is Principle 10 of the Govnerment Design Principles: https://www.gov.uk/guidance/government-design-principles#make-things-open-it-makes-things-better
+>I need Git to version control my code and work collaboratively with analysts in my team and across the department. Version control will reduce the chance for errors and minimise the storage burden of our work. It aso allows us to work in the open by pushing the version histories to GitHub, a website and cloud storage service. Working in the open is Principle 10 of the Government Design Principles: https://www.gov.uk/guidance/government-design-principles#make-things-open-it-makes-things-better
