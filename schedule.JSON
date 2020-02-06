@@ -99,11 +99,11 @@
 },
 {
   "date" : "2020-03-06",
-  "title" : "tbc",
-  "author" : "",
-  "abstract" : "",
-  "type" : "",
-  "level" : null,
+  "title" : "inciseR: moving from Excel and Stata to R",
+  "author" : "Matt Kerlogue",
+  "abstract" : "The Cabinet Office undertakes the technical modelling for the <a href=\"https://www.bsg.ox.ac.uk/incise/\">InCiSE project</a>. The pilot edition of the InCiSE index was made using Excel and Stata. In the second edition we adopted a new approach using R to improve reproducibility and reduce error.",
+  "type" : "Project",
+  "level" : 0,
   "url": null
 },
 {

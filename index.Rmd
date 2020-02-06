@@ -63,10 +63,14 @@ sched <- jsonlite::fromJSON("schedule.JSON") %>%
 
 ``` {r echo=FALSE}
 
-datatable(sched, escape = FALSE, filter = "top",
-          colnames = str_to_title(names(sched)), rownames = FALSE,
-          options = list(dom = "tr", paging = FALSE, searching = TRUE, ordering = FALSE)
-          ) %>%
+datatable(sched, 
+          escape = FALSE, 
+          filter = "top",
+          colnames = str_to_title(names(sched)), 
+          rownames = FALSE,
+          options = list(dom = "tr", paging = FALSE, searching = TRUE, 
+                         ordering = FALSE),
+          class = "compact row-border stripe hover") %>%
   formatDate(1, "toLocaleDateString", 
              params = list("en-GB", 
                            list(year = "numeric",
