@@ -90,11 +90,11 @@
 },
 {
   "date" : "2020-02-21",
-  "title" : "tbc",
-  "author" : "",
+  "title" : "Why is refactoring code important?",
+  "author" : "Charlie Brookhouse",
   "abstract" : "",
-  "type" : "",
-  "level" : null,
+  "type" : "method",
+  "level" : 1,
   "url": null
 },
 {
@@ -103,7 +103,7 @@
   "author" : "Matt Kerlogue",
   "abstract" : "The Cabinet Office undertakes the technical modelling for the <a href=\"https://www.bsg.ox.ac.uk/incise/\">InCiSE project</a>. The pilot edition of the InCiSE index was made using Excel and Stata. In the second edition we adopted a new approach using R to improve reproducibility and reduce error.",
   "type" : "Project",
-  "level" : 0,
+  "level" : 1,
   "url": null
 },
 {
