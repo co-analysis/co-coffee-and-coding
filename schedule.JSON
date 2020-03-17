@@ -90,9 +90,10 @@
 },
 {
   "date" : "2020-02-21",
-  "title" : "Why is refactoring code important?",
+  "title" : "Refactor your way to happiness",
   "author" : "Charlie Brookhouse",
-  "abstract" : "",
+  "abstract" : "Refactoring - or restructuring existing code without adding features - is key to managing the complexity of any growing software project. Without refactoring, complex projects can become unmanageable and may even need to be entirely re-written. In this session, we will refactor some code to practice critical thinking about and appreciation of programming style.
+",
   "type" : "method",
   "level" : 1,
   "url": null
@@ -117,8 +118,8 @@
 },
 {
   "date" : "2020-04-03",
-  "title" : "tbc",
-  "author" : "",
+  "title" : "Webscraping for better jobs",
+  "author" : "Toby Jolly",
   "abstract" : "",
   "type" : "",
   "level" : null,
