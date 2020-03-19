@@ -70,7 +70,7 @@ datatable(sched,
           rownames = FALSE,
           options = list(dom = "tr", paging = FALSE, searching = TRUE, 
                          ordering = FALSE),
-          class = "compact row-border stripe hover") %>%
+          class = "compact row-border stripe hover govuk-table") %>%
   formatDate(1, "toLocaleDateString", 
              params = list("en-GB", 
                            list(year = "numeric",

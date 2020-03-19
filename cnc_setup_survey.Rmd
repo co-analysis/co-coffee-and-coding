@@ -12,7 +12,7 @@ library(tidyverse)
 library(janitor)
 library(govstyle)
 
-dt_cc <- read_csv("~/Downloads/Cabinet Office Coffee & Coding_ Interest Form (Responses) - Form responses 1.csv") %>% clean_names()
+dt_cc <- read_csv("cocc_interest-form-responses.csv") %>% clean_names()
 
 names(dt_cc) <- c(
   "timestamp", 

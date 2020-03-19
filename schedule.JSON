@@ -92,8 +92,7 @@
   "date" : "2020-02-21",
   "title" : "Refactor your way to happiness",
   "author" : "Charlie Brookhouse",
-  "abstract" : "Refactoring - or restructuring existing code without adding features - is key to managing the complexity of any growing software project. Without refactoring, complex projects can become unmanageable and may even need to be entirely re-written. In this session, we will refactor some code to practice critical thinking about and appreciation of programming style.
-",
+  "abstract" : "Refactoring - or restructuring existing code without adding features - is key to managing the complexity of any growing software project. Without refactoring, complex projects can become unmanageable and may even need to be entirely re-written. In this session, we will refactor some code to practice critical thinking about and appreciation of programming style.",
   "type" : "method",
   "level" : 1,
   "url": null
@@ -109,8 +108,8 @@
 },
 {
   "date" : "2020-03-20",
-  "title" : "tbc",
-  "author" : "",
+  "title" : "Introduction to regression models in R",
+  "author" : "Matt Kerlogue",
   "abstract" : "",
   "type" : "",
   "level" : null,
